@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: #fff;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(34, 32, 32);
+}
+#container{
+    height: 100%;
+    width: 100%;
+}
+
+#header{
+    height: 10%;
+    width: 100%;
+}
+#header h1{
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 700;
+color: royalblue;
+padding-top: 1%;
+}
+
+#blog-content{
+    height: 90%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#bogging{
+    height: 100%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#card{
+    height: 45%;
+    width: 18%;
+    /* background-color: black; */
+    border-radius: 1rem;
+    border: 2px solid gray;
+    margin-top: 2%;
+    overflow: hidden;
+}
+
+#img{
+    height: 40%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
+
+#centre-content{
+    height: 30%;
+    width: 100%;
+    padding-top: 15px;
+}
+
+#centre-content h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+#centre-content p{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: .5rem;
+    font-weight: 700;
+    margin-left: 10px;
+}
+#down-content{
+    height: 25%;
+    width: 100%;
+    /* background-color: rgb(2, 255, 14); */
+    display: flex;
+}
+
+#left{
+    height: 100%;
+    width: 50%;
+    /* background-color: black; */
+    display: flex;
+}
+
+#img-con{
+    height: 60%;
+    width: 35%;
+    background-color: #fff;
+    border-radius: 50rem;
+    margin-top: 10%;
+    background-image: url(https://images.unsplash.com/photo-1578632767115-351597cf2477?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    margin-left: 5px;
+}
+#img-content{
+    height: 80%;
+    width: 60%;
+    /* background-color: blanchedalmond; */
+    text-align: center;
+    align-items: center;
+    padding-top: 18%;
+    color: deepskyblue;
+}
+#right{
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(255, 0, 0); */
+    margin-top: 3%;
+}
+#right button{
+    height: 40%;
+    width: 60%;
+    border: 2px solid black;
+    margin-left: 8%;
+    margin-top: 10%;
+    margin-left: 20px;
+}
